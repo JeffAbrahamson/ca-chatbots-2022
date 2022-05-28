@@ -9,10 +9,70 @@ in English.
 Plan to do all exercises in groups of 2-3 people.
 
 We will mostly use Keras, although some examples will use pytorch.
-You should have both installed on your machine (or on the cloud
-notebook of your choice, which is likely more practical).  You're
-welcome to use whatever you like, it's just that often the examples on
-which we base our exercises will lead to natural choices.
+We'll mostly use Google Colab.
+
+
+## Overview
+
+### Day 1
+
+Morning: introductions, review.
+
+Afternoon: Eliza codelab
+
+
+### Day 2
+
+Discussion:
+* PCA, auto-encoders
+  * Loss = L^2_2
+  * Orthognonal, linear subspace
+AE non-ortho, manifold
+
+Example: eigenfaces
+
+* In one example, 10 component deep AE = 50 component LSA (PCA)
+* 2 components = visual
+
+NLP introduction:
+* BOW
+* Stop words
+* TF-IDF
+* Word2vec
+
+Compare documents via vectors.  Cosine distance.  Faster in fewer dimensions.
+
+* Semantic hashing
+  * "Supermarket search"
+  * Reduce search space to a few buckets
+  * Deep AE, logistic units in hidden units
+  * Hope locality is related to similarity
+  * Example: bisection of computer memory
+
+Vectors in $\mathbb{R}^n$ vs $\mathbb{Z}^n$.
+
+Shallow AE
+* RBM with contrastive divergence
+* not RBM with maximum likelihood
+* Note: Hopfield nets
+
+Codelab on document similarity.
+
+
+### Day 3
+
+Auto-encoders + codelab using images to understand auto-encoders visually.
+
+LSTM auto-encoders + codelab
+
+
+### Day 4
+
+To be determined based on experience of first three days.
+
+### Day 5
+
+To be determined based on experience of first three days.
 
 
 ## Basics of ML
@@ -44,7 +104,7 @@ Discussion: principles, history (this dates from the mid-1960's)
 
 Exercise: to understand how eliza works, make it work in French
 
-Another interesting example from 2000:  [How may I help you?](gorin-2000-how-may-i-help-you.pdf)
+Another interesting example from 2000:  [How may I help you?](papers/gorin-2000-how-may-i-help-you.pdf)
 
 
 ## Sequence-to-sequence modeling
@@ -70,21 +130,21 @@ really important.
 If the paper is important to you, read the rest.
 
 
-* [An intelligent Chatbot using deep learning with Bidirectional RNN and attention model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7283081/) ([local](dhyani-2020-chatbot.pdf))
-* [Seq2Seq AI Chatbot with Attention Mechanism](https://arxiv.org/abs/2006.02767) ([local](sojasingarayar-2020-chatbot.pdf))
-* [Conversational Chatbot using Deep Learning Algorithm and Attention Mechanism](https://www.ijser.org/researchpaper/Conversational-Chatbot-using-Deep-Learning-Algorithm-and-Attention-Mechanism.pdf) ([local](prithvi-2020-chatbot.pdf))
-* [Performance of Seq2Seq learning Chatbot with Attention layer in Encoder decoder model](https://www.researchgate.net/publication/351837227_Performance_of_Seq2Seq_learning_Chatbot_with_Attention_layer_in_Encoder_decoder_model) ([local](raj-2021-chatbot.pdf))
+* [An intelligent Chatbot using deep learning with Bidirectional RNN and attention model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7283081/) ([local](papers/dhyani-2020-chatbot.pdf))
+* [Seq2Seq AI Chatbot with Attention Mechanism](https://arxiv.org/abs/2006.02767) ([local](papers/sojasingarayar-2020-chatbot.pdf))
+* [Conversational Chatbot using Deep Learning Algorithm and Attention Mechanism](https://www.ijser.org/researchpaper/Conversational-Chatbot-using-Deep-Learning-Algorithm-and-Attention-Mechanism.pdf) ([local](papers/prithvi-2020-chatbot.pdf))
+* [Performance of Seq2Seq learning Chatbot with Attention layer in Encoder decoder model](https://www.researchgate.net/publication/351837227_Performance_of_Seq2Seq_learning_Chatbot_with_Attention_layer_in_Encoder_decoder_model) ([local](papers/raj-2021-chatbot.pdf))
 
 Some classical foundation articles:
 
-* [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) ([local](NIPS-2017-attention-is-all-you-need-Paper.pdf))
+* [Attention Is All You Need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) ([local](papers/NIPS-2017-attention-is-all-you-need-Paper.pdf))
 
 
 ### HMM
 
 * [Chatbot with HMM](https://github.com/timothyouano/Chatbot-with-Hidden-Markov-Model-HMM)
 * [Conversation/speech synthesis](https://www.chatbots.org/paper/synthesis_and_evaluation_of_conversational_characteristics_in_hmm-based_spe/)
-* [Comparison of rhymer chatbots: HMM, RNN](https://www.derczynski.com/sheffield/papers/archive/innopolis/chernova.pdf) ([local](chernova.pdf))
+* [Comparison of rhymer chatbots: HMM, RNN](https://www.derczynski.com/sheffield/papers/archive/innopolis/chernova.pdf) ([local](papers/chernova.pdf))
 
 ### LSTM
 

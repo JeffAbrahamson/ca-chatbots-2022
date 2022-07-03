@@ -66,13 +66,70 @@ Auto-encoders + codelab using images to understand auto-encoders visually.
 LSTM auto-encoders + codelab
 
 
-### Day 4
+### Days 4 and 5
 
-To be determined based on experience of first three days.
+Google Cloud chatbot codelab.
 
-### Day 5
+    https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-hangouts#0
 
-To be determined based on experience of first three days.
+which is much the same as this but with a (very slightly) different flavour:
+
+    https://developers.google.com/learn/pathways/chatbots-dialogflow
+
+Ideally, continue on with this one:
+
+    https://developers.google.com/learn/pathways/custom-responsive-chatbots
+
+In particular, this give you some experience with pre-packaged
+services such as Google's.  (Amazon, Apple, Microsoft etc. all have
+such things in one for or another.)
+
+Ideally, go beyond what the codelab proposes (you have a day and a
+half to reflect on what that means for you and your group) so that you
+learn something specific that interests you.
+
+
+## Auto-évaluation
+
+To do no later than Tuesday evening:
+
+https://forms.gle/ZGUYoxa1v5mfHBfB8
+
+also
+
+https://forms.gle/gCdoi9BB6VaLusGD8
+
+
+## Presentations
+
+After lunch on Tuesday, each group will do a 5-10 minute presentation
+of their work.  Knowing that you've all worked on roughly the same
+material, you'll want to think of how to present your work in a way
+that doesn't look exactly like every one else's work.  For example,
+you probably _don't_ want to summarise the Google presentation, as
+everyone will have seen that.  Talk rather about your synthesis of
+that information and what you've learned beyond what the nice lady in
+the video says.
+
+Remember, also, that what feels hard for you at the moment you are
+presenting the material is not _necessarily_ the most important part
+of what you have to present.
+
+Remember to think through how you want to structure your presentation.
+What should the listener take away at the end?
+
+It might help to imagine that your boss asked you to learn enough
+about chatbots to give a presentation to a technically competent
+client, and that you want to show the client that you are competent to
+work on whatever problems they have.
+
+You should plan to do a live demo of your work, but that should be the
+icing on the cake, not the cake.
+
+
+## AMA
+
+Question and answer time.
 
 
 ## Basics of ML
